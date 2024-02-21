@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: Grotest;
+  src: url(assets/FoundersGrotesk-Semibold.ttf);
+}
+@font-face {
+  font-family: Neue;
+  src: url(assets/NeueMontreal-Regular.ttf);
+}
+.img {
+  background-image: url(assets/eyesBackground.jpg);
+}
+.thead {
+  font-family: Grotest;
+}
+.shead {
+  font-family: Neue;
+}
